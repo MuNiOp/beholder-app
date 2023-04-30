@@ -16,29 +16,17 @@ print("""
 [>]Привет! Я так подумал, что ты пиратишь... выбери действие
 [-] 1 - Continiue free(бесплатно)
 [-] 2 - Enter key(ключ)
-"""
+""")
 a = input(">>>:")
 
 if a == '1':
       print("пошел нахуй ебырь")
       input()
 if a == '2':
-      pass
-if a != '1' or '2':
-      print("пошел нахуй ебырь")
-      input()
-
-key = input('Введи сюда ключ:')
-
-try:
-    if key in r.text:
-        pass
-    else:
-        print("братиш ошибочка")
-        input()
-except:
-    print('нетворк коннектид луз(')
-print('''
+      key = input('Введи сюда ключ:')
+      try:
+          if key in bebra.text:
+                print('''
 
   _          _           _     _                               
  | |        | |         | |   | |                              
@@ -59,4 +47,13 @@ print('''
                                   
 
 ''')
-input()
+                input()
+      except:
+          print("ашибка")
+          input()
+      else:
+          print("ашибка")
+else:
+      print("пошел нахуй ебырь")
+      input()
+
