@@ -1,10 +1,10 @@
 {
-	"name": "many",
+	"name": "v2 grenades",
 	"description": "no description", 
 	"update_timestamp": 1608065779 , 
 	"url": "https://raw.githubusercontent.com/MuNiOp/beholder-app/main/ww.json",
 	"locations": 
-{
+  {
   "\r\nde_mirage": [
     {
       "name": ["1", "slider"],
